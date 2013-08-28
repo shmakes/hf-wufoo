@@ -1,0 +1,42 @@
+{
+   "app_date": "",
+   "type": "Volunteer",
+   "wufoo_entry_id": "",
+   "name": {
+       "middle": "",
+       "nickname": "",
+       "last": "",
+       "first": ""
+   },
+   "address": {
+       "city": "",
+       "phone_day": "",
+       "phone_day_ext": "",
+       "zip": "",
+       "phone_mbl": "",
+       "state": "",
+       "street": "",
+       "street2": "",
+       "country": "",
+       "phone_eve": "",
+       "email": ""
+   },
+   "birth_date": "",
+   "is_vet": false,
+   "military_branch": "",
+   "prior_experience": "",
+   "how_discover_sshf": "",
+   "shirt_size": "",
+   "will_attend_training": false,
+   "training_complete": false,
+   "waiver_received": false,
+   "notes": {
+       "other": ""
+   },
+   "metadata": {
+       "created_at": "",
+       "updated_at": "",
+       "created_by": "wufoo_import v01.00",
+       "updated_by": ""
+   }
+}

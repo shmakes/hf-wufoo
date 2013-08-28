@@ -1,0 +1,186 @@
+{
+  "Fields" : [ {
+    "Title" : "Entry Id",
+    "Type" : "text",
+    "DbField" : "wufoo_entry_id",
+    "ID" : "EntryId"
+  }, {
+    "Title" : "First Name (as it appears on driver's license)",
+    "Instructions" : "",
+    "IsRequired" : "1",
+    "ClassNames" : "",
+    "DefaultVal" : "",
+    "Page" : "1",
+    "Type" : "text",
+    "DbField" : "name.first",
+    "ID" : "Field534"
+  }, {
+    "Title" : "Middle Name",
+    "Instructions" : "",
+    "IsRequired" : "1",
+    "ClassNames" : "",
+    "DefaultVal" : "",
+    "Page" : "1",
+    "Type" : "text",
+    "DbField" : "name.middle",
+    "ID" : "Field533"
+  }, {
+    "Title" : "Last Name",
+    "Instructions" : "",
+    "IsRequired" : "1",
+    "ClassNames" : "",
+    "DefaultVal" : "",
+    "Page" : "1",
+    "Type" : "text",
+    "DbField" : "name.last",
+    "ID" : "Field535"
+  }, {
+      "DefaultVal" : "",
+      "DbField" : "address.street",
+      "ID" : "Field3",
+      "Label" : "Street Address"
+    }, {
+      "DefaultVal" : "",
+      "DbField" : "address.street2",
+      "ID" : "Field4",
+      "Label" : "Address Line 2"
+    }, {
+      "DefaultVal" : "",
+      "DbField" : "address.city",
+      "ID" : "Field5",
+      "Label" : "City"
+    }, {
+      "DefaultVal" : "",
+      "DbField" : "address.state",
+      "ID" : "Field6",
+      "Label" : "State / Province / Region"
+    }, {
+      "DefaultVal" : "",
+      "DbField" : "address.zip",
+      "ID" : "Field7",
+      "Label" : "Postal / Zip Code"
+    }, {
+      "DefaultVal" : "",
+      "DbField" : "address.country",
+      "ID" : "Field8",
+      "Label" : "Country"
+  }, {
+    "Title" : "Email",
+    "Instructions" : "",
+    "IsRequired" : "1",
+    "ClassNames" : "",
+    "DefaultVal" : "",
+    "Page" : "1",
+    "Type" : "email",
+    "DbField" : "address.email",
+    "ID" : "Field9"
+  }, {
+    "Title" : "Phone Number/Day",
+    "Instructions" : "",
+    "IsRequired" : "1",
+    "ClassNames" : "",
+    "DefaultVal" : "",
+    "Page" : "1",
+    "Type" : "phone",
+    "DbField" : "address.phone_day",
+    "ID" : "Field10"
+  }, {
+    "Title" : "Do you have an extension number for your daytime phone?",
+    "Instructions" : "",
+    "IsRequired" : "0",
+    "ClassNames" : "",
+    "DefaultVal" : "",
+    "Page" : "1",
+    "Type" : "text",
+    "DbField" : "address.phone_day_ext",
+    "ID" : "Field537"
+  }, {
+    "Title" : "Phone Number/Evening",
+    "Instructions" : "",
+    "IsRequired" : "1",
+    "ClassNames" : "",
+    "DefaultVal" : "",
+    "Page" : "1",
+    "Type" : "phone",
+    "DbField" : "address.phone_eve",
+    "ID" : "Field520"
+  }, {
+    "Title" : "Date of Birth",
+    "Instructions" : "",
+    "IsRequired" : "1",
+    "ClassNames" : "",
+    "DefaultVal" : "",
+    "Page" : "1",
+    "Type" : "date",
+    "DbField" : "birth_date",
+    "ID" : "Field11"
+  }, {
+    "Title" : "Are you a veteran?",
+    "Instructions" : "",
+    "IsRequired" : "0",
+    "ClassNames" : "",
+    "DefaultVal" : "",
+    "Page" : "1",
+    "Type" : "radio",
+    "DbField" : "is_vet",
+    "ID" : "Field539",
+    "HasOtherField" : false
+  }, {
+    "Title" : "If yes, what branch and years served?",
+    "Instructions" : "",
+    "IsRequired" : "0",
+    "ClassNames" : "",
+    "DefaultVal" : "",
+    "Page" : "1",
+    "Type" : "text",
+    "DbField" : "military_branch",
+    "ID" : "Field112"
+  }, {
+    "Title" : "What prior volunteer experience do you have?",
+    "Instructions" : "",
+    "IsRequired" : "0",
+    "ClassNames" : "",
+    "DefaultVal" : "",
+    "Page" : "1",
+    "Type" : "textarea",
+    "DbField" : "prior_experience",
+    "ID" : "Field113"
+  }, {
+    "Title" : "How did you hear about SSHF?",
+    "Instructions" : "",
+    "IsRequired" : "0",
+    "ClassNames" : "",
+    "DefaultVal" : "",
+    "Page" : "1",
+    "Type" : "textarea",
+    "DbField" : "how_discover_sshf",
+    "ID" : "Field115"
+  }, {
+    "Title" : "T-Shirt Size",
+    "Instructions" : "",
+    "IsRequired" : "1",
+    "ClassNames" : "",
+    "DefaultVal" : "",
+    "Page" : "1",
+    "Type" : "radio",
+    "DbField" : "shirt_size",
+    "ID" : "Field216",
+    "HasOtherField" : false
+  }, {
+    "Title" : "Are you willing to attend a mandatory training session?",
+    "Instructions" : "",
+    "IsRequired" : "1",
+    "ClassNames" : "",
+    "DefaultVal" : "",
+    "Page" : "1",
+    "Type" : "radio",
+    "DbField" : "will_attend_training",
+    "ID" : "Field541",
+    "HasOtherField" : false
+  }, {
+    "Title" : "Date Created",
+    "Type" : "date",
+    "DbField" : "metadata.created_at",
+    "ID" : "DateCreated"
+  } ]
+}

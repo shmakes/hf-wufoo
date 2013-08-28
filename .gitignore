@@ -1,0 +1,5 @@
+.couchapprc
+.*.swp
+*~
+*.bak
+config.json

@@ -1,0 +1,5 @@
+function(doc) {
+  if (doc.type === "Volunteer" && doc.wufoo_entry_id) {
+    emit(parseInt(doc.wufoo_entry_id) , null);
+  }
+}

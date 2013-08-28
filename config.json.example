@@ -1,0 +1,18 @@
+{
+   "wufoo_source": {
+     "host": "yoursite.wufoo.com",
+     "api_key": "XXXX-XXXX-XXXX-XXXX"
+   },
+   "target_db": {
+     "host": "host",
+     "port": "5984",
+     "user": "user",
+     "pass": "pass"
+   },
+   "volunteers": {
+     "wf_existing_entries_count_path": "/api/v3/forms/form_name/entries/count.json?Filter1=EntryId+Is_greater_than+{0}&pageSize=100",
+     "wf_existing_entries_path": "/api/v3/forms/form_name/entries.json?Filter1=EntryId+Is_greater_than+{0}&pageSize=100",
+     "db_existing_entries_view_path": "/db_name/_design/design_doc/_view/WufooEntries?descending=true",
+     "db_bulk_insert_path": "/db_name/_bulk_docs"
+   }
+}
